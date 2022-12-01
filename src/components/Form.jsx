@@ -14,7 +14,6 @@ export const Form = () => {
 	const dispatch = useDispatch()
 
 	useEffect(() => {
-		console.log(isEditing, id, name, price)
 		if (id) {
 			setIsEditing(true)
 			setNameValue(name)
